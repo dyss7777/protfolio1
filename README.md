@@ -16,7 +16,6 @@ PC 및 모바일에서 자연스럽고 부드러운 사용자 경험을 제공�
 - desktopFlag: 현재 창이 데스크탑 크기인지 여부를 저장합니다.
 - 창 너비가 1240px 이상이면 데스크탑 모드입니다.
 - 메뉴와 네비게이션의 열림 상태를 초기화합니다.
-
 ``` React
 let desktopFlag;
 
@@ -32,7 +31,6 @@ export default App;
 
 - 메뉴 탭 클릭 시 메뉴 열기/닫기가 실행됩니다.
 - 기본 동작이 차단됩니다.
-
 ``` React
 menuTab.addEventListener("click", function(e) {
 	e.preventDefault();
@@ -44,7 +42,6 @@ export default App;
 ***
 
 ### 3. GNB 항목 클릭/마우스 이벤트 처리
-
 ``` React
 Array.from(gnbList).forEach(function(item1, i) {
 	...
@@ -59,5 +56,13 @@ export default App;
 item1.addEventListener("click", function(e) {
 ...
 });
+export default App;
+```
+3-2. 마우스 진입/이탈 (데스크탑만 동작)
+- 마우스 오버 시 header에 on 클래스 추가와 높이가 조정됩니다.
+- 마우스 나갈 때 원상복귀됩니다.
+``` React
+item1.addEventListener("mouseenter", ...);
+item1.addEventListener("mouseleave", ...);
 export default App;
 ```
