@@ -28,7 +28,7 @@ export default App;
 ```
 ***
 
-## 메뉴 버튼 클릭 시 메뉴 열고 닫기
+### 2. 메뉴 버튼 클릭 시 메뉴 열고 닫기
 
 - 메뉴 탭 클릭 시 메뉴 열기/닫기가 실행됩니다.
 - 기본 동작이 차단됩니다.
@@ -43,7 +43,7 @@ export default App;
 
 ***
 
-## GNB 항목 클릭/마우스 이벤트 처리
+### 3. GNB 항목 클릭/마우스 이벤트 처리
 
 ``` React
 Array.from(gnbList).forEach(function(item1, i) {
@@ -52,7 +52,7 @@ Array.from(gnbList).forEach(function(item1, i) {
 export default App;
 ```
 
-### GNB 항목 클릭 (모바일일 때만 동작)
+a. GNB 항목 클릭 (모바일일 때만 동작)
 - 데스크탑이면 무시합니다.
 - no-depth 클래스가 있으면 무시합니다.
 - 하나만 열고 나머지 닫습니다.
