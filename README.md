@@ -26,6 +26,7 @@ function checkWindowSize() {
 checkWindowSize();
 export default App;
 ```
+***
 
 ② 메뉴 버튼 클릭 시 메뉴 열고 닫기
 
@@ -39,3 +40,5 @@ menuTab.addEventListener("click", function(e) {
 });
 export default App;
 ```
+
+***
