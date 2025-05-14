@@ -13,3 +13,9 @@ PC 및 모바일에서 자연스럽고 부드러운 사용자 경험을 제공�
 
 ① checkWindowSize() – 창 너비 체크 및 메뉴 초기화
 ``` React
+let desktopFlag;
+
+function checkWindowSize() {
+	...
+}
+checkWindowSize();
