@@ -53,12 +53,12 @@ export default App;
 ```
 
 > a. GNB 항목 클릭 (모바일일 때만 동작)
-- 데스크탑이면 무시합니다.
-- no-depth 클래스가 있으면 무시합니다.
-- 하나만 열고 나머지 닫습니다.
-``` React
-item1.addEventListener("click", function(e) {
-	...
-});
-export default App;
-```
+	- 데스크탑이면 무시합니다.
+	- no-depth 클래스가 있으면 무시합니다.
+	- 하나만 열고 나머지 닫습니다.
+	``` React
+	item1.addEventListener("click", function(e) {
+		...
+	});
+	export default App;
+	```
