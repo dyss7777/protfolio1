@@ -29,3 +29,10 @@ export default App;
 ② 메뉴 버튼 클릭 시 메뉴 열고 닫기
 - 메뉴 탭 클릭 시 메뉴 열기/닫기가 실행됩니다.
 - 기본 동작이 차단됩니다.
+``` React
+menuTab.addEventListener("click", function(e) {
+	e.preventDefault();
+	header.classList.toggle("menu-open");
+});
+export default App;
+```
