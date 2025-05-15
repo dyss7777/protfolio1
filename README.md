@@ -13,7 +13,7 @@ PC 및 모바일에서 자연스럽고 부드러운 사용자 경험을 제공�
 ## 사용 기술
 |기술|설명|
 |---|---|
-|왼쪽정렬|HTML5 마크업 구조|
+|![HTML](https://img.shields.io/badge/-HTML-F05032?style=flat-square&logo=html5&logoColor=ffffff)|HTML5 마크업 구조|
 |왼쪽정렬|CSS3 반응형 스타일 처리|
 |왼쪽정렬|JavaScript DOM 제어, Swiper & GSAP 연동|
 |왼쪽정렬|Swiper.js 슬라이더 구현|
