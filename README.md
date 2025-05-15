@@ -36,7 +36,6 @@ function checkWindowSize() {
 	...
 }
 checkWindowSize();
-export default App;
 ```
 ***
 
@@ -49,7 +48,6 @@ menuTab.addEventListener("click", function(e) {
 	e.preventDefault();
 	header.classList.toggle("menu-open");
 });
-export default App;
 ```
 
 ***
@@ -59,7 +57,6 @@ export default App;
 Array.from(gnbList).forEach(function(item1, i) {
 	...
 });
-export default App;
 ```
 3-1. GNB 항목 클릭 (모바일일 때만 동작)
 - 데스크탑이면 무시합니다.
@@ -69,7 +66,6 @@ export default App;
 item1.addEventListener("click", function(e) {
 ...
 });
-export default App;
 ```
 3-2. 마우스 진입/이탈 (데스크탑만 동작)
 - 마우스가 오버 시 header에 on 클래스 추가와 높이가 조정됩니다.
@@ -77,7 +73,6 @@ export default App;
 ``` React
 item1.addEventListener("mouseenter", ...);
 item1.addEventListener("mouseleave", ...);
-export default App;
 ```
 ***
 
@@ -91,7 +86,6 @@ let swiperSlides = document.querySelectorAll(".main-slider .swiper-slide");
 swiperSlides.forEach(function(item, i) {
 	...
 });
-export default App;
 ```
 ***
 
@@ -104,7 +98,6 @@ function checkDevice() {
 	...
 }
 checkDevice();
-export default App;
 ```
 ***
 
@@ -115,6 +108,5 @@ export default App;
 gsap.utils.toArray(".scale-ani").forEach(function(item) {
 	...
 });
-export default App;
 ```
 ***
