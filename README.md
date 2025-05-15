@@ -19,7 +19,8 @@ PC 및 모바일에서 자연스럽고 부드러운 사용자 경험을 제공�
 |![Swiper](https://img.shields.io/badge/Swiper-6332F6?logo=swiper&logoColor=white&style=flat-square) |Swiper.js 슬라이더 구현|
 |![GSAP](https://img.shields.io/badge/GSAP-88CE02?logo=greensock&logoColor=white&style=flat-square)|GSAP 고급 스크롤 애니메이션|
 ## 웹 이미지
-
+|메인 슬라이더|모바일 메뉴|
+|ㅇㅇ|ㅇㅇ|
 ## 주요기능 상세설명
 
 ### 1. checkWindowSize() – 창 너비 체크 및 메뉴 초기화
