@@ -81,3 +81,16 @@ swiperSlides.forEach(function(item, i) {
 export default App;
 ```
 ***
+
+### 5.디바이스 종류 확인 및 GSAP 타이포 효과 설정
+- window.matchMedia로 디바이스 종류 구분합니다. (모바일/PC).
+- 타이포그래피(.main-typo)에 GSAP 스크롤 트리거 효과를 적용합니다.
+- 좌우로 글자가 움직이는 애니메이션입니다.
+``` React
+function checkDevice() {
+	...
+}
+checkDevice();
+export default App;
+```
+***
