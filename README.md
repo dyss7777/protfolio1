@@ -68,3 +68,16 @@ export default App;
 ```
 ***
 
+### 4. 슬라이드 이미지 경로 설정
+- imageData에 PC/모바일 이미지 파일명을 배열합니다.
+- 슬라이드별로 각각 PC/모바일 이미지 경로를 설정합니다.
+``` React
+const imageData = [ ... ];
+let swiperSlides = document.querySelectorAll(".main-slider .swiper-slide");
+
+swiperSlides.forEach(function(item, i) {
+	...
+});
+export default App;
+```
+***
