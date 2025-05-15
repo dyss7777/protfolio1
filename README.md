@@ -51,7 +51,7 @@ export default App;
 3-1. GNB 항목 클릭 (모바일일 때만 동작)
 - 데스크탑이면 무시합니다.
 - no-depth 클래스가 있으면 무시합니다.
-- 하나만 열고 나머지 닫습니다.
+- 하나만 열고 나머지 항목은 닫습니다.
 ``` React
 item1.addEventListener("click", function(e) {
 ...
@@ -59,8 +59,8 @@ item1.addEventListener("click", function(e) {
 export default App;
 ```
 3-2. 마우스 진입/이탈 (데스크탑만 동작)
-- 마우스 오버 시 header에 on 클래스 추가와 높이가 조정됩니다.
-- 마우스 나갈 때 원상복귀됩니다.
+- 마우스가 오버 시 header에 on 클래스 추가와 높이가 조정됩니다.
+- 마우스가 나갈 때 원상복구됩니다.
 ``` React
 item1.addEventListener("mouseenter", ...);
 item1.addEventListener("mouseleave", ...);
