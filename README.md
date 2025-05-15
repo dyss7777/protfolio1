@@ -94,3 +94,14 @@ checkDevice();
 export default App;
 ```
 ***
+
+### 6. 요소에 스크롤 트리거 효과
+- 요소가 보이면 .active 클래스가 추가됩니다.
+- 다시 사라지면 .active 클래스가 제거됩니다.
+``` React
+gsap.utils.toArray(".scale-ani").forEach(function(item) {
+	...
+});
+export default App;
+```
+***
