@@ -14,8 +14,8 @@ PC 및 모바일에서 자연스럽고 부드러운 사용자 경험을 제공�
 |기술|설명|
 |---|---|
 |![HTML](https://img.shields.io/badge/-HTML-F05032?style=flat-square&logo=html5&logoColor=ffffff)|HTML5 마크업 구조|
-|왼쪽정렬|CSS3 반응형 스타일 처리|
-|왼쪽정렬|JavaScript DOM 제어, Swiper & GSAP 연동|
+|![CSS](https://img.shields.io/badge/-CSS-007ACC?style=flat-square&logo=css3)|CSS3 반응형 스타일 처리|
+|![JavaScript](https://img.shields.io/badge/-JavaScript-dc8d2d?style=flat-square&logo=javascript&logoColor=ffffff)|JavaScript DOM 제어, Swiper & GSAP 연동|
 |왼쪽정렬|Swiper.js 슬라이더 구현|
 |왼쪽정렬|GSAP 고급 스크롤 애니메이션|
 ## 웹 이미지
